@@ -1,21 +1,22 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
       "rich-text",
       "info-card#button-right",
       "info-card#button-left",
-      "flex-layout.row"
+      "flex-layout.row",
+      "shelf"
     ]
   },
-  "rich-text":{
-    "props":{
-      "text":"**Hello, World!**",
+  "rich-text": {
+    "props": {
+      "text": "**Hello, World!**",
       "textPosition": "RIGHT"
     }
   },
   "info-card#button-right": {
     "props": {
-      "isFullModeStyle":false,
+      "isFullModeStyle": false,
       "textPosition": "right",
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
       "headline": "Vintage Pink",
@@ -29,7 +30,7 @@
   },
   "info-card#button-left": {
     "props": {
-      "isFullModeStyle":false,
+      "isFullModeStyle": false,
       "textPosition": "right",
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
       "headline": "Shining chrome",
@@ -41,7 +42,7 @@
       "blockClass": "metal"
     }
   },
-  "flex-layout.row":{
+  "flex-layout.row": {
     "children": [
       "info-card#rethink",
       "flex-layout.col"
@@ -56,8 +57,8 @@
       "textPosition": "center"
     }
   },
-  "flex-layout.col":{
-    "children":[
+  "flex-layout.col": {
+    "children": [
       "image#electronics",
       "image#major-appliance"
     ]
