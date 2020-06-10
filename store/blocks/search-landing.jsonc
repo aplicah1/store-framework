@@ -1,11 +1,11 @@
 {
     "store.custom#landing": {
         "blocks": [
-            "image#landingbanner",
+            "image",
             "search-result-layout.customQuery"
         ]
     },
-    "image#landingbanner":{
+    "image":{
         "props":{
             "min-width":"100%",
             "src":"https://appliancetheme.vtexassets.com/arquivos/cozinha-about-us.png"
