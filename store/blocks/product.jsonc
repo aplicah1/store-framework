@@ -60,7 +60,7 @@
   },
   "sku-selector":{
     "props":{
-      "initialSelection":false,
+      "initialSelection":"complete",
       "showVariationsLabels":true,
       "showVariationsErrorMessage":true
     }
