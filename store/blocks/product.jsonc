@@ -62,7 +62,7 @@
     "props":{
       "initialSelection":"empty",
       "showVariationsLabels":true,
-      "showVariationsErrorMessage":true
+      "showValueForVariation":"all"
     }
   }
 }
